@@ -16,10 +16,101 @@
       crossorigin="anonymous"
     />
 
-    <title>Profile</title>
+    <link rel="stylesheet" href="../css/profile.css" />
+    <title>Netflix</title>
   </head>
-  <body>
-    <h1>Hello</h1>
+  <body class="">
+    <section id="header">
+      <div class="nav-container">
+        <img src="../assets/netflix.jfif" alt="" />
+      </div>
+    </section>
+
+    <section id="profile" class="">
+      <div class="container profile-container">
+        <dir class="title-container">
+          <h1 class="border-bottom-1">Edit Profile</h1>
+        </dir>
+        <div class="profile-forms-container row">
+          <div class="col-4">
+            <div class="image-container">
+              <img src="../assets/strive-logo.png" alt="" />
+              <div class="icon-container">
+                <img class="edit-icon" src="../assets/edit-icon.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="profile-section-top">
+              <input
+                class="input-name"
+                placeholder="Strive Student"
+                type="text"
+                name="name"
+                id="name"
+              />
+              <label class="dropdown-label" for="language"
+                ><h2 class="">Language:</h2></label
+              >
+              <br />
+
+              <div class="dropdown dropdown-language-select">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  English
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Bahasa Indonesia</a>
+                  <a class="dropdown-item" href="#">Italian</a>
+                  <a class="dropdown-item" href="#">German</a>
+                  <a class="dropdown-item" href="#">Turkish</a>
+                </div>
+              </div>
+            </div>
+            <div class="profile-section-middle">
+              <h2>Maturity Settings:</h2>
+              <ul>
+                <li class="maturity-list">ALL MATURITY RATINGS</li>
+              </ul>
+              <p class="paragraph-maturity">
+                Show titles of all maturity ratings for this profile
+              </p>
+              <button class="btn-maturity-edit">EDIT</button>
+            </div>
+            <div class="autoplay-container">
+              <h2>Autoplay controls</h2>
+              <div class="container">
+                <div class="row mb-2 align-items-center">
+                  <input class="checkbox" type="checkbox" />
+                  <span class="autoplay-text ml-1"
+                    >Autoplay next episode in a series on all devices</span
+                  >
+                </div>
+                <div class="row align-items-center">
+                  <input class="checkbox" type="checkbox" />
+                  <span class="autoplay-text ml-1"
+                    >Autoplay previews whilst browsing on all devices</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row end-button-container mt-5 p-0 ml-0">
+          <button class="mr-3 btn btn-save">SAVE</button>
+          <button class="mr-3 btn btn-cancel">CANCEL</button>
+          <button class="m-0 btn btn-delete">DELETE PROFILE</button>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
