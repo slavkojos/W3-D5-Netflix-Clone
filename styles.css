@@ -3,8 +3,12 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-body {
+#index {
   background-color: rgb(24, 24, 24);
+}
+
+#account {
+  background-color: rgb(233, 233, 233);
 }
 
 .icon {
@@ -24,4 +28,17 @@ body {
 
 .footer-links a {
   opacity: 50%;
+}
+
+#cancel-mem-button {
+}
+
+.paypal-logo {
+  width: 60px;
+  height: 35px;
+}
+
+.user {
+  width: 50px;
+  height: 35px;
 }
