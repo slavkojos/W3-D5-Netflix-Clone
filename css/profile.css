@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Netflix Sans';
+  font-family: "Netflix Sans";
   font-weight: 400;
   font-display: optional;
   src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2)
-      format('woff2'),
+      format("woff2"),
     url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff)
-      format('woff');
+      format("woff");
 }
 
 body {
@@ -13,13 +13,13 @@ body {
   color: rgb(255, 255, 255);
   height: 100vh;
   width: 100%;
-  font-family: 'Netflix Sans';
+  font-family: "Netflix Sans";
   font-size: 0.9em;
 }
 
 h1 {
   color: rgb(255, 255, 255);
-  font-family: 'Netflix Sans';
+  font-family: "Netflix Sans";
 }
 
 h2 {
@@ -75,7 +75,7 @@ ul {
 .title-container h1 {
   font-size: 3.4vh;
   font-weight: 400;
-  font-family: 'Netflix Sans';
+  font-family: "Netflix Sans";
 }
 
 /* LEFT COLUMN IMAGE*/
@@ -230,7 +230,7 @@ ul {
   border-radius: 0;
   padding: 2.5px;
   font-weight: 400;
-  font-family: 'Netflix Sans';
+  font-family: "Netflix Sans";
 }
 
 .btn-save {
@@ -260,4 +260,9 @@ ul {
 
 .btn-delete {
   width: 140px;
+}
+
+.netflix-logo {
+  width: 200px;
+  height: 400px;
 }
