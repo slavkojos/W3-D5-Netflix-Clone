@@ -1,0 +1,44 @@
+.bell {
+  filter: invert(100%);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#index {
+  background-color: rgb(24, 24, 24);
+}
+
+#account {
+  background-color: rgb(233, 233, 233);
+}
+
+.icon {
+  filter: invert(100%);
+}
+
+.icon-container {
+  width: 40px;
+  height: 30px;
+}
+
+.social-icons img {
+  height: 30px;
+  width: 30px;
+  opacity: 50%;
+}
+
+.footer-links a {
+  opacity: 50%;
+}
+
+#cancel-mem-button {
+}
+
+.paypal-logo {
+  width: 60px;
+  height: 35px;
+}
+
+.user {
+  width: 50px;
+  height: 35px;
+}
