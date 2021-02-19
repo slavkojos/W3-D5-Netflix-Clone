@@ -60,3 +60,7 @@
   transform: scale(2);
   filter: invert(100%);
 }
+
+.black {
+  background-color: black;
+}
