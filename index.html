@@ -19,9 +19,9 @@
 
     <title>Netflix Clone</title>
   </head>
-  <body>
+  <body class="">
     <nav
-      class="navbar fixed-top navbar-expand-lg navbar-dark"
+      class="navbar sticky-top navbar-expand-lg navbar-dark"
       style="background: #0f171e"
     >
       <a class="navbar-brand" href="#"
@@ -70,8 +70,248 @@
         </div>
       </div>
     </nav>
+    <section class="container-fluid">
       </div>
     </nav>
+    <header class="d-flex justify-content-between align-items-center my-3">
+      <div class="left-align d-flex my-3">
+        <h2 class="font-weight-bold text-white">TV Shows</h2>
+        <div class="dropdown mx-2 border">
+          <a
+            class="btn btn-dark dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Genres
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Comedy</a>
+            <a class="dropdown-item" href="#">Thriller</a>
+          </div>
+        </div>
+      </div>
+      <div class="right-align d-flex">
+        <div class="icon-container border d-flex justify-content-center py-1">
+          <img class="icon" src="/assets/justify-left.svg" alt="" />
+        </div>
+        <div class="icon-container border d-flex justify-content-center py-1">
+          <img class="icon" src="/assets/three-dots-vertical.svg" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main class="main my-5">
+      <section id="trending" class="my-4">
+        <h4 class="text-white font-weight-bold my-2">Trending now</h4>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 my-3"
+        >
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSIveZZlnOhfDnhLQzV9dSpkQZGxZpo8XyL-zvMurmkBXQGVLHSdi5ceEEg1jKFsvrZbUMYsRTMrSkqXFgPzOLMOSv_FbQZKRzDxB3GxxDlnrP-iqwDU3Idl6bSx.jpg?r=a0a"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABahPI8_z7PZSxTC8wKKGD40m6I6ZVKvMFscVHqWcqAQfmy6kYOv2mCOt-dHO3SxtiFohwg-GsPzgzBJbIHO2W0EhDKA.jpg?r=801"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXMHsJCyHKyf3X3oEmYczFvXsgIiNdSK2bMf3pXy17SGgjGp_Utp8F4BRP-ui192RsgKQxZCzvkGVuI2N7Z0Rgh5a48_HMeLuEAc1TDK-8PjJBLwLlDAmAEwMlYX.jpg?r=da1"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbuahuAj-coNCd6IjTpk-X3hfgSIXHex9cSMDQDwgUF_9S-3h6uUVw-hGGdFKtSbUhLMIc_bUXqSxhrvEhuwHqytoZi-FIj7k5dEHFUPrvXb7A2U-sLDSxqT0yB_2wqD5Q.jpg?r=84c"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUZYG-6eqDXXpkoDT78r853k4jqU_l6-eTwi3l5BZrvC1STvMfoCNfYY2ad7yD7Jsy-u6Ehq0roraQSJZf_-K2-sQtZ3-j8RYOXDXrqnrFRkHWlw3Q93_ka0qdiY.jpg?r=0c0"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdncnmk-gRk1M89pVISTDl0MpIsgKBk2swizl7pASTBUZeroQmElfVH8lrTQqLLd40FMdy2BnUv-34b5u_zybHpwASc7uYM6hrCBrGx5o5TglIp54_ln_8-x0JOq.jpg?r=93f"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section id="watch-it-again" class="my-4">
+        <h4 class="text-white font-weight-bold">Watch it again</h4>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 my-3"
+        >
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYCXCfVkAFjsSQJGuFsXPb7ANJ4GKjDYZU85JaiQ-qDc1QJJCH_55dJJ1RWTdlo62fLFpBLMWrM4JunTyNQbGZm0_iKOwdU91su6fYovYxIWxgtI1KJzhdbWq8ta.jpg?r=382"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRLgbY80v8kNrUD56f8NYM3CCRnO7UcioHh188CTEBBwT1jDv0UsQrpyAU645JLI1TYqB4Tj8fxCF5xCdvbWRLpW3M8n6GqgwpUTf71us5Gnui14MN_yKRggGDyY.jpg?r=480"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTdEsV_Deg990wELnpYPW6h9wM0SBcKP6F9beMPmFkWCZ0JTgmSosQkNa4ePrpg0kpIJbgdtTz5tceQguXVr1-hSmDo.jpg?r=e04"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABffOr4y4H40p3evdbBVrLnQmwbGe_HQK7E_Ys_CUSG_dcX7eLpCe8uzRoFzxOERdv4kByL18U83z8i5TG5-X7DYUbsfZr4ODaozyHQVzfrvs42vpJPRAlpsHthZK.jpg?r=d3b"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABa-oTyIxZjZX2RV59zIXh0I_NOJB16m7Iky-RTZ9jqavv58JOO4FcsoW_WH_vKdt9Cu8ZIZxDmDqb6FvEk6zj2aMp-GajzsrK9qJcFKdVZ7oNofBA9redABpGuwb.jpg?r=973"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVkZHDojcEQITUuC2Y64xpJqFzgYhKpAd_VjaUBwAwj0P613UURrYEkxYxwOydFRdvv5Lnofi_mNzQi5BI6mAp3H3ujDuX4Dq7gMdi1xclBjLsEagqRDYEXpgtcs.jpg?r=758"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section id="new-releases" class="my-4">
+        <h4 class="text-white font-weight-bold">New releases</h4>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 my-3"
+        >
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTNtbTme6kjhQ5E_4UG-98Aar9knOv6iGoVle_WQ8Ik26Zd9QIhXworg3IbCij348hy9E9RqvXI0TVS7NaKBQ6NcOXCY_nc8Snk4ob4QpGCX5vRNXR1ZdwFHlYC1.jpg?r=909"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABalXZ5GNcfVJT-GflEGuyss_efB2ArCbeippG5MR_lbisC6-abo7Zb2RwffrKQOJTxjTEFd-2wz8q9Y7RMhq65Gd6Ig5Fg3UdzN_lRVB1N2zeMlWA6nIU90oyNi5.jpg?r=eba"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZb_aoFCCviR9T06QS-lymtt8wyt_IY5ttFJLg-0S85S4lH48qNPf343Mlr1UhNU9JuUZtRV7DBpY5gj5OQZ_GalO2KnT0-PB0mN6nlbE1nw_IUpE5NEecmYbP9Z.jpg?r=085"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTpIQRWMjfT0xswoPRiMVSfCVsNfhBlv313q5YdvJpx2K45FYEdCZwYeDiod-lAtwePblnS36dKpNOJotE7amfnzd_I4Z-z0Ep1lsL8YEjiC_9PCOY2sFugaA2-lZivNW1F9jw_KjZEKtGA2c_5PKzs4xSkTZQ.jpg?r=872"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWKgEga3itYvkQeBiCrgrNTrdsqkZkHCKtBqJKBBkxCL4oKCfU_T9xw20l_3WtlieWlhtexM7gYlmtX2yfRLWt_H2phP1EBtPdJ8yB3FkwXJ4iBY7PUqLvKq6zxYfcUTqg.jpg?r=c7d"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABak5R6wArJNY056PFYbCXfHycAmZkN3X8I9biL8mRLQxNpQFXB0pDMEGibbj5KK_nFfv_UpJ9SkjsbqvZI1iI0b3R8fLAX79bUh0JeIWiqNMunGD-C-ab9iuCbjA.jpg?r=ffb"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container my-5">
+      <div class="social-icons">
+        <img
+          class="icon mx-2"
+          src="/assets/facebook-square-brands.svg"
+          alt=""
+        />
+        <img
+          class="icon mx-2"
+          src="/assets/instagram-square-brands.svg"
+          alt=""
+        />
+        <img class="icon mx-2" src="/assets/twitter-brands.svg" alt="" />
+        <img class="icon mx-2" src="/assets/youtube-brands.svg" alt="" />
+      </div>
+      <div class="footer-links my-2">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+          <div class="col">
+            <a class="my-3 d-block text-white mx-2" href=""
+              >Audio and subtitles</a
+            >
+            <a class="my-3 d-block text-white mx-2" href="">Media center</a>
+            <a class="my-3 d-block text-white mx-2" href="">Privacy</a>
+            <a class="my-3 d-block text-white mx-2" href="">Contact us</a>
+          </div>
+          <div class="col">
+            <a class="my-3 d-block text-white mx-2" href=""
+              >Audio description</a
+            >
+            <a class="my-3 d-block text-white mx-2" href=""
+              >Investor Relations</a
+            >
+            <a class="my-3 d-block text-white mx-2" href="">Legal Notices</a>
+          </div>
+          <div class="col">
+            <a class="my-3 d-block text-white mx-2" href="">Help center</a>
+            <a class="my-3 d-block text-white mx-2" href="">Jobs</a>
+            <a class="my-3 d-block text-white mx-2" href=""
+              >Cookie preferences</a
+            >
+          </div>
+          <div class="col">
+            <a class="my-3 d-block text-white mx-2" href="">Gift Cards</a>
+            <a class="my-3 d-block text-white mx-2" href="">Terms of Use</a>
+            <a class="my-3 d-block text-white mx-2" href=""
+              >Corporate Information</a
+            >
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-outline-secondary d-block">
+        Service code
+      </button>
+      <p class="text-muted my-3">© 1997-2019 Netflix, Inc.</p>
+    </footer>
+  </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
