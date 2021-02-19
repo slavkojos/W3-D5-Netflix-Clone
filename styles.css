@@ -3,7 +3,8 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-#index {
+#index,
+#profile {
   background-color: rgb(24, 24, 24);
 }
 
@@ -41,4 +42,21 @@
 .user {
   width: 50px;
   height: 35px;
+}
+
+.netflix-logo {
+  width: 150px;
+  height: 80px;
+}
+#edit-profile {
+  width: 35%;
+}
+
+#edit-profile hr {
+  background-color: rgb(148, 148, 148);
+}
+
+.checkbox {
+  transform: scale(2);
+  filter: invert(100%);
 }

@@ -15,11 +15,100 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/styles.css" />
 
     <title>Profile</title>
   </head>
-  <body>
-    <h1>Hello</h1>
+  <body id="profile">
+    <a href="../index.html"
+      ><img class="netflix-logo p-4" src="../navbar/Netflix_logo.png" alt=""
+    /></a>
+
+    <section id="edit-profile" class="container-fluid">
+      <h1 class="text-white">Edit profile</h1>
+      <hr />
+      <div class="row py-2">
+        <div class="col-4">
+          <img
+            class="strive-logo img-fluid"
+            src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/1045/original/strive-20school-20logo.png"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <h5 class="bg-secondary p-2 mb-4 text-white">Strive student</h5>
+          <p class="text-white">Language:</p>
+          <div class="dropdown">
+            <a
+              class="btn btn-secondary dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              English
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <hr />
+          <h5 class="text-light my-3">Maturity settings:</h5>
+          <button
+            type="button"
+            class="btn btn-secondary font-weight-bold rounded-0"
+          >
+            ALL MATURITY RATINGS
+          </button>
+          <p class="text-white my-3">
+            Show title of all maturity ratings for this profile
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-dark px-4 rounded-0 font-weight-bold"
+          >
+            EDIT
+          </button>
+          <hr />
+          <h5 class="text-white">Autoplay controls</h5>
+          <input type="checkbox" name="" id="" class="checkbox" />
+          <p class="text-white pl-2 d-inline">
+            Autoplay next episode in a series on all devices.
+          </p>
+          <br class="my-2" />
+          <input type="checkbox" name="" id="" class="checkbox" />
+          <p class="text-white pl-2 d-inline">
+            Autoplay previews while browsing on all devices.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="row d-flex justify-content-around px-4">
+        <button
+          type="button"
+          class="d-block btn btn-light font-weight-bold px-5 rounded-0"
+        >
+          SAVE
+        </button>
+        <button
+          type="button"
+          class="d-block btn btn-outline-dark font-weight-bold px-5 rounded-0"
+        >
+          CANCEL
+        </button>
+        <button
+          type="button"
+          class="d-block btn btn-outline-dark font-weight-bold px-5 rounded-0"
+        >
+          DELETE PROFILE
+        </button>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
