@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(24, 24, 24);
+}
+
+.icon {
+  filter: invert(100%);
+}
+
+.icon-container {
+  width: 40px;
+  height: 30px;
+}
