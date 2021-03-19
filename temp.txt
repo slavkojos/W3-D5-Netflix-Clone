@@ -1,0 +1,27 @@
+https://striveschool-api.herokuapp.com/api/movies/ 
+
+
+<div class="col my-2">
+              <img
+                class="img-fluid"
+                src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSIveZZlnOhfDnhLQzV9dSpkQZGxZpo8XyL-zvMurmkBXQGVLHSdi5ceEEg1jKFsvrZbUMYsRTMrSkqXFgPzOLMOSv_FbQZKRzDxB3GxxDlnrP-iqwDU3Idl6bSx.jpg?r=a0a"
+                alt=""
+              />
+            </div>
+
+
+
+
+
+
+
+
+            <script>
+      const movieThumbnails = document.getElementsByClassName("movie-thumbnail");
+      for (let index = 0; index < movieThumbnails.length; index++) {
+        movieThumbnails[index].addEventListener("mouseover", function (event) {
+          event.currentTarget.classList.toggle("scale-up-center");
+          console.log("ok");
+        });
+      }
+    </script>
